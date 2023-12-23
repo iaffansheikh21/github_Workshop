@@ -3,10 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Animated and Attractive Page</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 2em;
+        color: #3498db;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        color: #2ecc71;
+        text-align: center;
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>M.Usman</h1>
-    <h2>hsshhd</h2>
+    <h1>M. Usman - The Lead of the Group</h1>
+    <p>
+      I assigned pages to my group members, and as a comment, I added which
+      member does which changes.
+    </p>
+    <h2>This is the Home Page</h2>
   </body>
 </html>
